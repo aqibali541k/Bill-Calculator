@@ -63,7 +63,7 @@ const BillPage = () => {
       {/* Printable Receipt */}
       <div
         ref={componentRef}
-        className="max-w-xl mx-auto mt-4 p-5 bg-[#fffdf7] border border-amber-700 rounded-lg shadow font-serif"
+        className="max-w-3xl mx-auto mt-4 p-5 bg-[#fffdf7] border border-amber-700 rounded-lg shadow font-serif"
       >
         {/* Header */}
         <div className="text-center mb-4 border-b border-dashed border-amber-700 pb-2">
