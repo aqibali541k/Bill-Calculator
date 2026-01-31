@@ -63,21 +63,21 @@ const BillPage = () => {
       {/* Printable Receipt */}
       <div
         ref={componentRef}
-        className="max-w-3xl mx-auto mt-4 p-5 bg-[#fffdf7] border border-amber-700 rounded-lg shadow font-serif"
+        className="max-w-3xl mx-auto mt-4 p-5 bg-[#fffdf7] border border-blue-700 rounded-lg shadow font-serif"
       >
         {/* Header */}
-        <div className="text-center mb-4 border-b border-dashed border-amber-700 pb-2">
-          <h1 className="text-2xl font-extrabold text-amber-900">
-            🏪 مہر ارشاد کریانہ سٹور
+        <div className="text-center mb-4 border-b border-dashed border-blue-700 pb-2">
+          <h1 className="text-2xl font-extrabold text-blue-900">
+            🏪 Grocery Store Bill Generator
           </h1>
-          <p className="text-xs text-gray-600">Ghanta Ghar, Faisalabad</p>
-          <p className="text-xs text-gray-600">📞 0300-1234567</p>
+          <p className="text-xs text-gray-600">Airport Chowk, Faisalabad</p>
+          <p className="text-xs text-gray-600">📞 0307-8244507</p>
         </div>
 
         {/* Customer */}
         <div className="mb-3">
           <p className="text-sm font-bold text-amber-900">
-            کسٹمر:{" "}
+            Customer:{" "}
             <span className="font-normal text-black">
               {customer || "__________"}
             </span>
@@ -109,7 +109,7 @@ const BillPage = () => {
 
         {/* Footer */}
         <div className="mt-6 text-center text-xs text-gray-600 border-t border-dashed pt-3">
-          <p>✔️ شکریہ — دوبارہ تشریف لائیں</p>
+          <p>✔️ Thank you — Please visit again</p>
           <p className="mt-1">Computer Generated Bill</p>
         </div>
       </div>

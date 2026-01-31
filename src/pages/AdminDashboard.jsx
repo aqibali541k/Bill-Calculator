@@ -10,6 +10,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import { message, Spin } from "antd";
+import { FaTrash } from "react-icons/fa";
 
 const AdminDashboard = () => {
   const [bills, setBills] = useState([]);
@@ -115,7 +116,7 @@ const AdminDashboard = () => {
                     <td className="p-2 text-green-700 font-semibold">
                       Rs {bill.total}
                     </td>
-                    <td className="p-2 text-gray-600 text-xs">
+                    <td className="p-2 text-blue-600 text-xs">
                       {bill.createdAt?.toDate().toLocaleDateString()}
                     </td>
                     <td className="p-2 flex gap-2 justify-center">
@@ -132,7 +133,7 @@ const AdminDashboard = () => {
                         onClick={() => deleteBill(bill.id)}
                         className="px-2 py-1 bg-red-600 text-white rounded text-xs"
                       >
-                        Del
+                        <FaTrash />
                       </button>
                     </td>
                   </tr>

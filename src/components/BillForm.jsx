@@ -2,9 +2,9 @@ import React from "react";
 
 const BillForm = ({ form, setForm, addItem }) => {
   return (
-    <div className="mb-6 p-4 bg-amber-50 border border-amber-400 rounded-xl shadow-sm">
-      <h3 className="text-lg font-bold text-amber-900 mb-4 font-serif">
-        🛒 آئٹم شامل کریں
+    <div className="mb-6 p-4 bg-blue-50 border border-blue-400 rounded-xl shadow-sm">
+      <h3 className="text-lg font-bold text-blue-900 mb-4 font-serif">
+        🛒 Add Item
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
